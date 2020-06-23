@@ -113,7 +113,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>C:\Program Files %28x86%29\WinFsp\lib;$(ProjectDir)..\..\pthreads4w</AdditionalLibraryDirectories>
-      <AdditionalDependencies>pthreadVC3-w64d.lib;%(AdditionalDependencies);winfsp-x64.lib</AdditionalDependencies>
+      <AdditionalDependencies>pthreadVC3-w64dd.lib;%(AdditionalDependencies);winfsp-x64.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
